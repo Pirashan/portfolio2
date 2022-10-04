@@ -11,6 +11,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <div className='text-xl bg-slate-800 text-slate-100 text-center'>Hello World</div>
+
     </div>
   )
 }
