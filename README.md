@@ -35,6 +35,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Git Commands
 $ git remote add origin https://github.com/Pirashan/portfolio2.git
+
 $ git branch -M main
+
 $ git add .
+
 $ git commit -m "first commit"
+
