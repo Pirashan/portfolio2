@@ -72,6 +72,13 @@ const Navbar = () => {
                 <Link href='/#projects'>
                     <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
                 </Link>
+                <Link href="https://drive.google.com/file/d/1IFOvZhIk9TseuVXELrjFquIc3TltSO_q/view?usp=sharing">
+                <a target="_blank">
+                  <li className='ml-10 text-sm uppercase hover:border-b'>
+                    Resume
+                  </li>
+                </a>
+              </Link>
                 <Link href='/#contact'>
                     <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
                 </Link>
@@ -87,7 +94,6 @@ const Navbar = () => {
     </div>   
 
       {/* Mobile Menu */}
-      {/* Overlay */}
       <div
         className={
           nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
@@ -114,7 +120,7 @@ const Navbar = () => {
                 </a>
               </Link> */}
             <Link href="/">
-              <h1 className="cursor-pointer hover:scale-110 text-4xl font-cd-medium md:text-xl  lg:text-xl  dark:text-white">
+              <h1 onClick={() => setNav(false)} className="cursor-pointer hover:scale-110 text-4xl font-cd-medium md:text-xl  lg:text-xl  dark:text-white">
                 PIRA
               </h1>
             </Link>
@@ -154,10 +160,17 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href='/resume'>
+              {/* <Link href='https://drive.google.com/file/d/1IFOvZhIk9TseuVXELrjFquIc3TltSO_q/view?usp=sharing'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Resume
                 </li>
+              </Link> */}
+              <Link href="https://drive.google.com/file/d/1IFOvZhIk9TseuVXELrjFquIc3TltSO_q/view?usp=sharing">
+                <a target="_blank">
+                  <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                    Resume
+                  </li>
+                </a>
               </Link>
               <Link href='/#contact'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
@@ -180,7 +193,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/Pirashan'
                   target='_blank'
                   rel='noreferrer'
                 >

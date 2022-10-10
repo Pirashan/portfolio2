@@ -9,9 +9,9 @@ html, body {
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
 
 @layer base {
-  /* body  {
+  body  {
     @apply font-[Raleway];
-  } */
+  }
 
   body {
     @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide

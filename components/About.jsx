@@ -13,13 +13,17 @@ const About = () => {
                     Who I Am
                 </h2>
                 <p className='py-2 text-gray-600'>
-                    I have spent asdasdasd
+                    I started my coding journey in my first year of University, when
+                    we were taught MatLab in one of our courses. As a chemical 
+                    engineer, I never would have thought I would need much
+                    coding knowledge. However, throughout my school and work experiences,
+                    I found myself recreating legacy data processes through the use of code.
                 </p>
-                <p className='py-2 text-gray-600>
-                    asdasdasdasdasd
+                <p className='py-2 text-gray-600'>
+                    My current interest is in full stack web development!
                 </p>
-                <p className='py-2 text-gray-600>
-                    asdasdasdasd
+                <p className='py-2 text-gray-600'>
+                    One of my hobbies includes music production, so make sure to check it out!
                 </p>
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-200'>

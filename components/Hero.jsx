@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
@@ -23,18 +24,37 @@ const Hero = () => {
                     front-end web applications while learning back-end technologies.
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
+
+                    <a
+                    href='https://www.linkedin.com/in/pirashan-ravikumaran/'
+                    target='_blank'
+                    rel='noreferrer'
+                    >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                         <FaLinkedinIn />
                     </div>
+                    </a>
+
+                    <a
+                    href='https://github.com/Pirashan'
+                    target='_blank'
+                    rel='noreferrer'
+                    >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                         <FaGithub />
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
+                    </a>
+
+                    <Link href='/#contact'>
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                         <AiOutlineMail />
-                    </div>
+                        </div>
+                    </Link>
+
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                         <BsFillPersonLinesFill />
                     </div>
+
                 </div>
             </div>
         </div>
