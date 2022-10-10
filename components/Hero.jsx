@@ -15,7 +15,7 @@ const Hero = () => {
                     Hi, I'm <span className='text-[#5651e5]'>Pira</span>
                 </h1>
                 <h1 className='py-4 text-gray-700'>
-                    A Front-End Web Developer
+                    An Aspiring Developer
                 </h1>
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
                     I'm a front-end web developer specializing in building exceptional
