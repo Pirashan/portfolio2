@@ -1,24 +1,29 @@
 import React from 'react'
+import Image from 'next/image';
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen bg-[#0a192f] text-gray-300'>
-        <div className='flex flex-col justify-center items-center w-full h-full'>
-            <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-                <div className='sm:text-right pb-8 pl-4'>
-                    <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
-                        About
-                    </p>    
+    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
+        <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
+            <div className='col-span-2'>
+                <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
+                    About
+                </p>
+                <h2 className='py-4'>
+                    Who I Am
+                </h2>
+                <p className='py-2 text-gray-600'>
+                    I have spent asdasdasd
+                </p>
+                <p className='py-2 text-gray-600>
+                    asdasdasdasdasd
+                </p>
+                <p className='py-2 text-gray-600>
+                    asdasdasdasd
+                </p>
             </div>
-            <div></div>
-            </div>
-            <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                <div className='sm:text-right text-4xl font-bold '>
-                    <p>Hi. i'm Pira, nice to meet you. Please take a look around!</p>
-                </div>
-                <div>
-                    <p>I am passionate about asdasdasdasdasdasdasdasdasd</p>
-                </div>
+            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-200'>
+                <Image className='rounded-lg box-Shadow-lg' src='/../public/assets/profilepic.jpg' alt="/" width='1125' height='1500' />
             </div>
         </div>
     </div>
