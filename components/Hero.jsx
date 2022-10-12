@@ -9,7 +9,7 @@ const Hero = () => {
     <div id='hero' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
-                <p className='uppercase text-sm tracking-widest text-gray-600'>
+                <p className='uppercase mt-10 text-sm tracking-widest text-gray-600'>
                     LET&#39;S BUILD SOMETHING TOGETHER
                 </p>
                 <h1 className='py-4 text-gray-700'>
@@ -49,21 +49,20 @@ const Hero = () => {
                     </a>
                     </Link>
 
-                    <Link href='/contact'>
-                        <a target="_blank">
+                    <Link href='/#contact'>
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                         <AiOutlineMail />
                         </div>
-                        </a>
                     </Link>
 
-                    <Link href='/'>
+                    <Link href="https://drive.google.com/file/d/1IFOvZhIk9TseuVXELrjFquIc3TltSO_q/view?usp=sharing">
                     <a target="_blank">
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>  
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>  
                         <BsFillPersonLinesFill />
-                    </div>
+                        </div>
                     </a>
                     </Link>
+
 
                 </div>
             </div>

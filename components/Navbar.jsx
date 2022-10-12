@@ -48,7 +48,7 @@ const Navbar = () => {
 
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href="/" passHref>
-              <h1 className="cursor-pointer hover:scale-110 text-4xl font-cd-medium md:text-3xl  lg:text-2xl  dark:text-white">
+              <h1 className="ml-5 cursor-pointer hover:scale-110 text-4xl font-cd-medium md:text-3xl  lg:text-2xl  dark:text-white">
                 PIRA
               </h1>
             </Link>
@@ -81,12 +81,13 @@ const Navbar = () => {
                     <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
                 </Link>
             </ul>
+            {/* hamburger menu */}
             <div
             style={{ color: `${linkColor}` }}
             onClick={handleNav}
-            className='md:hidden cursor-pointer'
+            className='md:hidden cursor-pointer mr-5'
           >
-            <AiOutlineMenu size={25} />
+            <AiOutlineMenu size={30} />
           </div>
         </div>
     </div>   
@@ -101,22 +102,13 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >
           <div>
             <div className='flex w-full items-center justify-between'>
-              {/* <Link href='/'>
-                <a>
-                  <Image
-                    src={navLogo}
-                    width='87'
-                    height='35'
-                    alt='/'
-                  />
-                </a>
-              </Link> */}
+
             <Link href="/">
               <h1 onClick={() => setNav(false)} className="cursor-pointer hover:scale-110 text-4xl font-cd-medium md:text-xl  lg:text-xl  dark:text-white">
                 PIRA
@@ -158,11 +150,6 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              {/* <Link href='https://drive.google.com/file/d/1IFOvZhIk9TseuVXELrjFquIc3TltSO_q/view?usp=sharing'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Resume
-                </li>
-              </Link> */}
               <Link href="https://drive.google.com/file/d/1IFOvZhIk9TseuVXELrjFquIc3TltSO_q/view?usp=sharing">
                 <a target="_blank">
                   <li onClick={() => setNav(false)} className='py-4 text-sm'>

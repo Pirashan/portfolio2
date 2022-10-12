@@ -11,7 +11,7 @@ const Contact = () => {
     <div id='contact' className='w-full lg-h:screen'>
         <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
         {/* <h2 className='py-3 text-[#ecf0f3]'>Get In Touch</h2> */}
-            <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+            <p className='text-xl tracking-widest mt-10 uppercase text-[#5651e5]'>
                 Contact
             </p>
 
@@ -19,7 +19,7 @@ const Contact = () => {
                 {/* left*/}
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full'>
-                        
+
                         <div>
                             <h2>Pirashan Ravikumaran</h2>
                             <p>Front-End Developer</p>
@@ -29,18 +29,38 @@ const Contact = () => {
                         <p className='uppercase pt-8'>Connect With Me</p>
                         <div className='flex items-center justify-between py-4'>
                             
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
+                        <Link
+                    href='https://www.linkedin.com/in/pirashan-ravikumaran/'
+                    target='_blank'
+                    rel='noreferrer'
+                    >
+                    <a target="_blank">
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                         <FaLinkedinIn />
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
+                    </div>
+                    </a>
+                    </Link>
+
+                    <Link
+                    href='https://github.com/Pirashan'
+                    target='_blank'
+                    rel='noreferrer'
+                    >
+                    <a target="_blank"> 
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                         <FaGithub />
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
-                        <AiOutlineMail />
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
+                    </div>
+                    </a>
+                    </Link>
+
+
+                    <Link href="https://drive.google.com/file/d/1IFOvZhIk9TseuVXELrjFquIc3TltSO_q/view?usp=sharing">
+                    <a target="_blank">
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>  
                         <BsFillPersonLinesFill />
                         </div>
+                    </a>
+                    </Link>
 
                         </div>
                     </div>
