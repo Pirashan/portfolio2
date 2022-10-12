@@ -19,10 +19,7 @@ const Contact = () => {
                 {/* left*/}
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full'>
-                        <div>
-                            <Image className='rounded-xl hover:scale-105 ease-in duration-200' src="" alt="/" />
-                        </div>
-
+                        
                         <div>
                             <h2>Pirashan Ravikumaran</h2>
                             <p>Front-End Developer</p>
