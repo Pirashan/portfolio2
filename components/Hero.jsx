@@ -25,35 +25,45 @@ const Hero = () => {
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
 
-                    <a
+                    <Link
                     href='https://www.linkedin.com/in/pirashan-ravikumaran/'
                     target='_blank'
                     rel='noreferrer'
                     >
+                    <a target="_blank">
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                         <FaLinkedinIn />
                     </div>
                     </a>
+                    </Link>
 
-                    <a
+                    <Link
                     href='https://github.com/Pirashan'
                     target='_blank'
                     rel='noreferrer'
                     >
+                    <a target="_blank"> 
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                         <FaGithub />
                     </div>
                     </a>
+                    </Link>
 
-                    <Link href='/#contact'>
+                    <Link href='/contact'>
+                        <a target="_blank">
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                         <AiOutlineMail />
                         </div>
+                        </a>
                     </Link>
 
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
+                    <Link href='/'>
+                    <a target="_blank">
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>  
                         <BsFillPersonLinesFill />
                     </div>
+                    </a>
+                    </Link>
 
                 </div>
             </div>
