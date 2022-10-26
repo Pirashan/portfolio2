@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import propertyImg from '../public/assets/realestate.jpg'
+import spotifyImg from '../public/assets/spotifybuild.JPG'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -12,9 +13,9 @@ const Projects = () => {
         <h2 className='py-4'>What I&#39;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
             <ProjectItem 
-            title='Property Finder' 
-            backgroundImg={propertyImg} 
-            projectUrl='/property'
+            title='Spotify 2.0'
+            backgroundImg={spotifyImg} 
+            projectUrl='/spotifybuild'
             />
 
         </div>

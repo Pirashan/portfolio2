@@ -19,7 +19,7 @@ const Hero = () => {
                     An Aspiring Developer
                 </h1>
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-                    I&#39;m a front-end web developer specializing in building exceptional
+                    I&#39;m a full stack web developer specializing in building exceptional
                     digital experiences. Currently, I&#39;m focused on building responsive
                     front-end web applications while learning back-end technologies.
                 </p>
