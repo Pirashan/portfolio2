@@ -110,7 +110,7 @@ const Navbar = () => {
             <div className='flex w-full items-center justify-between'>
 
             <Link href="/">
-              <h1 className="link ml-5 cursor-pointer hover:scale-105 text-3xl font-cd-medium md:text-3xl  lg:text-2xl  dark:text-white">
+              <h1 onClick={() => setNav(false)} className="link ml-5 cursor-pointer hover:scale-105 text-3xl font-cd-medium md:text-3xl  lg:text-2xl  dark:text-white">
                 PIRA
               </h1>
             </Link>
