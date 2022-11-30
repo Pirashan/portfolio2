@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import appleredesignImg from '../public/assets/AppleRedesign.png'
+import appleredesignImg from '../public/assets/appleredesign.png'
 import spotifyImg from '../public/assets/spotifybuild.JPG'
 
 const Projects = () => {
