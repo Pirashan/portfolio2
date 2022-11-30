@@ -20,6 +20,20 @@ html, body {
   h1, h2, h3, h4, h5, h6 {
     @apply font-bold
   }
+  
+  .link {
+    @apply relative cursor-pointer before:absolute before:inset-x-0 
+    before:-bottom-1.5 before:h-0.5 before:origin-left before:scale-x-0 before:transform
+    before:rounded-bl before:bg-black before:transition-all before:duration-200
+    hover:before:scale-x-100;
+  }
+
+  .whitelink {
+    @apply relative cursor-pointer before:absolute before:inset-x-0 
+    before:-bottom-1.5 before:h-0.5 before:origin-left before:scale-x-0 before:transform
+    before:rounded-bl before:bg-gray-300 before:transition-all before:duration-200
+    hover:before:scale-x-100;
+  }
 
   h1 {
     @apply text-4xl sm:text-5xl md:text-6xl

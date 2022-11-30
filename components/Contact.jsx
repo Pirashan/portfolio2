@@ -54,7 +54,7 @@ const Contact = () => {
                     </Link>
 
 
-                    <Link href="https://drive.google.com/file/d/1IFOvZhIk9TseuVXELrjFquIc3TltSO_q/view?usp=sharing">
+                    <Link href="https://drive.google.com/file/d/1sRKQJn5VjAUxhCwygr0oqqpKFR6O__jc/view?usp=sharing">
                     <a target="_blank">
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>  
                         <BsFillPersonLinesFill />
@@ -102,10 +102,10 @@ const Contact = () => {
     </div>
 </div>
             </div>
-            <div className='flex justify-center py-12'>
+            <div className='mt-3 flex justify-center py-12'>
                 <Link href='/'>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 animate-bounce'>
-                        <HiOutlineChevronDoubleUp className='text-gray-700' size={30}/>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 motion-safe:animate-bounce'>
+                        <HiOutlineChevronDoubleUp className='text-gray-700' size={25}/>
                     </div>
                 </Link>
             </div>

@@ -55,7 +55,7 @@ const Hero = () => {
                         </div>
                     </Link>
 
-                    <Link href="https://drive.google.com/file/d/1IFOvZhIk9TseuVXELrjFquIc3TltSO_q/view?usp=sharing">
+                    <Link href="https://drive.google.com/file/d/1sRKQJn5VjAUxhCwygr0oqqpKFR6O__jc/view?usp=sharing">
                     <a target="_blank">
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>  
                         <BsFillPersonLinesFill />

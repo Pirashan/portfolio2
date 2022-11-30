@@ -4,12 +4,14 @@ import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import {useRouter} from 'next/router'
+import { SocialIcon } from 'react-social-icons';
+import { motion } from "framer-motion";
 
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
-    const [navBg, setNavBg] = useState('#ecf0f3');
+    const [navBg, setNavBg] = useState('#444444');
     const [linkColor, setLinkColor] = useState('#1f2937');
     const router=useRouter()
 
@@ -21,7 +23,7 @@ const Navbar = () => {
         setNavBg('transparent')
         setLinkColor('#ecf0f3')
        } else{
-        setNavBg('#ecf0f3')
+        setNavBg('#444444')
         setLinkColor('#1f2937')
        }
     },[router])
@@ -44,65 +46,91 @@ const Navbar = () => {
   return (
     <div 
     style={{backgroundColor: `${navBg}`}}
-    className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
+    className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100] xl:items-center'}>
 
-        <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-          <Link href="/" passHref>
-            <h1 className="link ml-5 cursor-pointer hover:scale-105 text-3xl font-cd-medium md:text-3xl  lg:text-2xl  dark:text-white">
-              PIRA
-            </h1>
+      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-32'>
+        <motion.div
+        initial={{
+          x:-500,
+          opacity:0,
+          scale:0.5
+        }}
+        animate={{
+          x:0,
+          opacity: 1,
+          scale: 1,
+        }}
+        transition={{
+          duration: 1,
+        }}
+        >
+          <Link href="/">
+                <h1 className="whitelink text-gray-300 ml-5 cursor-pointer hover:scale-105 text-3xl font-cd-medium md:text-3xl  lg:text-2xl text-white">
+                  PIRA
+                </h1>
           </Link>
+        </motion.div>
 
-        <div>
-            <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
-                <Link href='/'>
-                    <li className='ml-0 text-md uppercase opacity-75 transition hover:opacity-100'>Home</li>
-                </Link>
-                <Link href='/#about' smooth={true} duration={500}>
-                    <li className='ml-3 text-md uppercase opacity-75 transition hover:opacity-100'>About</li>
-                </Link>
-                <Link href='/#skills'>
-                    <li className='ml-3 text-md uppercase opacity-75 transition hover:opacity-100'>Skills</li>
-                </Link>
-                <Link href='/#projects'>
-                    <li className='ml-3 text-md uppercase opacity-75 transition hover:opacity-100'>Projects</li>
-                </Link>
-                <Link href="https://drive.google.com/file/d/1sRKQJn5VjAUxhCwygr0oqqpKFR6O__jc/view?usp=sharing">
-                <a target="_blank">
-                  <li className='ml-3 text-md uppercase opacity-75 transition hover:opacity-100'>
-                    Resume
-                  </li>
-                </a>
-              </Link>
-              <Link href='/music'>
-                    <li className='ml-3 text-md uppercase opacity-75 transition hover:opacity-100'>Music</li>
-                </Link>
-                <Link href='/#contact'>
-                    <li className='ml-3 text-md uppercase opacity-75 transition hover:opacity-100'>Contact</li>
-                </Link>
-            </ul>
-            {/* hamburger menu */}
-            <div
-            style={{ color: `${linkColor}` }}
-            onClick={handleNav}
-            className='md:hidden cursor-pointer mr-5'
-          >
-            <AiOutlineMenu size={30} />
-          </div>
-        </div>
+        <motion.div
+        initial={{
+          x:500,
+          opacity:0,
+          scale:0.5
+        }}
+        animate={{
+          x:0,
+          opacity: 1,
+          scale: 1,
+        }}
+        transition={{
+          duration: 1,
+        }}
+        className='flex flex-row items-center'>
+          <Link href='/'>
+            <p className='text-md uppercase text-gray-300 opacity-75 transition hover:opacity-100 hover:cursor-pointer'>Home</p>
+          </Link>
+          <SocialIcon
+          className='opacity-75 transition hover:opacity-100'
+          url="https://www.instagram.com/pirashanravi/"
+          fgColor="#E0E0E0"
+          bgColor="transparent"
+          target="_blank"
+          />
+          <SocialIcon 
+          className='opacity-75 transition hover:opacity-100'
+          url="https://www.youtube.com/DJPira"
+          fgColor="#E0E0E0"
+          bgColor="transparent"
+          target="_blank"
+          />
+          <SocialIcon 
+          className='opacity-75 transition hover:opacity-100'
+          url="https://open.spotify.com/artist/3yqGEeh3ghPCYipJgqrfM5?si=ZttXbNjnTTKsX3_9qMSNVA"
+          fgColor="#E0E0E0"
+          bgColor="transparent"
+          target="_blank"
+          />
+          <SocialIcon 
+          className='opacity-75 transition hover:opacity-100'
+          url="https://music.apple.com/us/artist/pira/1482460736"
+          fgColor="#E0E0E0"
+          bgColor="transparent"
+          target="_blank"
+          />
+        </motion.div>
     </div>   
 
       {/* Mobile Menu */}
       <div
         className={
-          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70 ' : ''
+          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
         }
       >
         {/* Side Drawer Menu */}
         <div
           className={
             nav
-              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500 overflow-auto'
+              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >
@@ -110,7 +138,7 @@ const Navbar = () => {
             <div className='flex w-full items-center justify-between'>
 
             <Link href="/">
-              <h1 className="link ml-5 cursor-pointer hover:scale-105 text-4xl font-cd-medium md:text-3xl  lg:text-2xl  dark:text-white">
+              <h1 onClick={() => setNav(false)} className="cursor-pointer hover:scale-110 text-4xl font-cd-medium md:text-xl  lg:text-xl  dark:text-white">
                 PIRA
               </h1>
             </Link>
