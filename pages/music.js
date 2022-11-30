@@ -5,7 +5,7 @@ import MusicNavbar from '../components/MusicNavbar'
 
 export default function Music() {
     return (
-      <div>
+      <div className='bg-[#444444]'>
         <Head>
           <title>Pira&#39;s Music Portfolio</title>
           <link rel="icon" href="/favicon.ico" />
@@ -13,7 +13,7 @@ export default function Music() {
 
       <MusicNavbar />
 
-      <div className='flex text-xl h-screen w-full items-center justify-center'>
+      <div className='flex text-xl h-screen w-full items-center justify-center text-gray-300'>
         <p>COMING SOON</p>
       </div>
 
