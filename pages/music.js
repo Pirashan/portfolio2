@@ -7,7 +7,7 @@ export default function Music() {
     return (
       <div>
         <Head>
-          <title>Pira's Music Portfolio</title>
+          <title>Pira&#39;s Music Portfolio</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
