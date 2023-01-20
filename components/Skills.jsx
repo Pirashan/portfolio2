@@ -10,8 +10,7 @@ const Skills = () => {
   return (
     <div id='skills' className='w-full lg:h-screen p-2'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-            <p className='text-xl tracking-widest mt-20 uppercase text-[#5651e5]'>Skills</p>
-            <h2 className='py-4'>What I&#39;ve Used</h2>
+            <p className='text-2xl font-semibold tracking-widest mt-20 uppercase text-[#5651e5]'>Skills</p>
             <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
 
             <div className='p-6 shadow-xl rounded-xl mx-5 hover:scale-105 ease-in duration-200'>

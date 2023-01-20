@@ -7,12 +7,9 @@ const About = () => {
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2'>
-                <p className='uppercase text-xl tracking-widest mt-10 text-[#5651e5]'>
+                <p className='uppercase text-2xl font-semibold tracking-widest mt-10 text-[#5651e5]'>
                     About
                 </p>
-                <h2 className='py-4'>
-                    Who I Am
-                </h2>
                 <p className='py-2 text-gray-600'>
                     I started my coding journey in my first year of University, when
                     we were taught MatLab in one of our courses. As a chemical 

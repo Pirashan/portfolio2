@@ -48,7 +48,7 @@ const Navbar = () => {
 
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
           <Link href="/" passHref>
-            <h1 className="link ml-5 cursor-pointer hover:scale-105 text-3xl font-cd-medium md:text-3xl  lg:text-2xl  dark:text-white">
+            <h1 className="link ml-5 cursor-pointer hover:scale-105 text-2xl font-cd-medium md:text-3xl  lg:text-2xl  dark:text-white">
               PIRA
             </h1>
           </Link>
@@ -56,29 +56,29 @@ const Navbar = () => {
         <div>
             <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
                 <Link href='/'>
-                    <li className='ml-0 text-md uppercase opacity-75 transition hover:opacity-100'>Home</li>
+                    <li className='ml-0 text-sm uppercase opacity-75 transition hover:opacity-100'>Home</li>
                 </Link>
                 <Link href='/#about' smooth={true} duration={500}>
-                    <li className='ml-3 text-md uppercase opacity-75 transition hover:opacity-100'>About</li>
+                    <li className='ml-3 text-sm uppercase opacity-75 transition hover:opacity-100'>About</li>
                 </Link>
                 <Link href='/#skills'>
-                    <li className='ml-3 text-md uppercase opacity-75 transition hover:opacity-100'>Skills</li>
+                    <li className='ml-3 text-sm uppercase opacity-75 transition hover:opacity-100'>Skills</li>
                 </Link>
                 <Link href='/#projects'>
-                    <li className='ml-3 text-md uppercase opacity-75 transition hover:opacity-100'>Projects</li>
+                    <li className='ml-3 text-sm uppercase opacity-75 transition hover:opacity-100'>Projects</li>
                 </Link>
                 <Link href="https://drive.google.com/file/d/1sRKQJn5VjAUxhCwygr0oqqpKFR6O__jc/view?usp=sharing">
                 <a target="_blank">
-                  <li className='ml-3 text-md uppercase opacity-75 transition hover:opacity-100'>
+                  <li className='ml-3 text-sm uppercase opacity-75 transition hover:opacity-100'>
                     Resume
                   </li>
                 </a>
               </Link>
               <Link href='/music'>
-                    <li className='ml-3 text-md uppercase opacity-75 transition hover:opacity-100'>Music</li>
+                    <li className='ml-3 text-sm uppercase opacity-75 transition hover:opacity-100'>Music</li>
                 </Link>
                 <Link href='/#contact'>
-                    <li className='ml-3 text-md uppercase opacity-75 transition hover:opacity-100'>Contact</li>
+                    <li className='ml-3 text-sm uppercase opacity-75 transition hover:opacity-100'>Contact</li>
                 </Link>
             </ul>
             {/* hamburger menu */}

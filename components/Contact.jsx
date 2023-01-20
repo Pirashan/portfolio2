@@ -11,7 +11,7 @@ const Contact = () => {
     <div id='contact' className='w-full lg-h:screen'>
         <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
         {/* <h2 className='py-3 text-[#ecf0f3]'>Get In Touch</h2> */}
-            <p className='text-xl tracking-widest mt-10 uppercase text-[#5651e5]'>
+            <p className='uppercase text-2xl font-semibold tracking-widest mt-10 text-[#5651e5]'>
                 Contact
             </p>
 
