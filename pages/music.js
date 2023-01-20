@@ -7,7 +7,7 @@ import CountUp from 'react-countup';
 
 export default function Music() {
     return (
-      <div className='bg-[#444444] h-screen'>
+      <div className='bg-[#444444] h-screen w-screen'>
         <Head>
           <title>Pira&#39;s Music Portfolio</title>
           <link rel="icon" href="/favicon.ico" />
