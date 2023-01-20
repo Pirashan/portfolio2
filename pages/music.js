@@ -7,14 +7,13 @@ import CountUp from 'react-countup';
 
 export default function Music() {
     return (
-      <div className='bg-[#444444] h-screen w-screen'>
+      <div className='bg-[#444444] w-full justify-center'>
         <Head>
           <title>Pira&#39;s Music Portfolio</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
       <MusicNavbar />
-
 
       <motion.div
         initial={{
@@ -32,13 +31,13 @@ export default function Music() {
         }}
         >
 
-        <div className="flex items-center justify-center pt-30">
+        <div className="flex items-center justify-center pt-8 h-screen w-screen">
         <YoutubeEmbed embedId="AnLRBvqpnsE" />
         </div>
-        <h1 className='flex items-center justify-center text-gray-300'>
+        {/* <h1 className='flex items-center justify-center text-gray-300 w-full'>
           <CountUp end={3956186} />
           <span> &nbsp;views</span>
-        </h1>
+        </h1> */}
         
         </motion.div>
 
