@@ -7,7 +7,7 @@ import {Cursor, useTypewriter} from 'react-simple-typewriter';
 
 const Hero = () => {
         const [text, helper] = useTypewriter({
-          words: [' Pira', ' in-Love-with-Coffee.jsx', ' <OpenToWork />', ' Pira'],
+          words: [' Pira', ' a-coffee-addict.jsx', ' <OpenToWork />', ' Pira'],
           loop:1,
           typeSpeed:50,
           deleteSpeed: 45,
@@ -27,13 +27,13 @@ const Hero = () => {
                     Hi, I&#39;m 
                     <span className='text-[#5651e5]'>                   
                         {text}                    
-                    <span className='tracking-widest text-gray-600'>
+                    <span className='tracking-widest text-gray-400'>
                         <Cursor/>
                     </span>
                     </span>
                 </h1>
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-                    I&#39;m a full stack web developer specializing in building exceptional
+                    I&#39;m an aspiring developer specializing in building exceptional
                     digital experiences. Currently, I&#39;m focused on building responsive
                     front-end web applications while learning back-end technologies.
                 </p>

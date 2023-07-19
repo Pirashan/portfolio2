@@ -46,7 +46,7 @@ const Navbar = () => {
   return (
     <div 
     style={{backgroundColor: `${navBg}`}}
-    className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100] xl:items-center'}>
+    className={shadow ? 'fixed w-full h-20 top-0 z-30 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100] xl:items-center'}>
 
       <div className='flex justify-between items-center w-full h-full px-2 xl:px-32'>
         <motion.div

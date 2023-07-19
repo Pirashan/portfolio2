@@ -31,7 +31,7 @@ export default function Music() {
         }}
         >
 
-        <div className="flex items-center justify-center pt-8 h-screen w-screen">
+        <div className="flex items-center justify-center h-screen w-screen">
         <YoutubeEmbed embedId="AnLRBvqpnsE" />
         </div>
         {/* <h1 className='flex items-center justify-center text-gray-300 w-full'>
