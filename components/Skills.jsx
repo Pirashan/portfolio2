@@ -3,8 +3,10 @@ import React from 'react'
 import html from '../public/assets/html.png'
 import css from '../public/assets/css.png'
 import javascript from '../public/assets/javascript.png'
+import typescript from '../public/assets/typescript.png'
 import react from '../public/assets/react.png'
 import tailwind from '../public/assets/tailwind.png'
+import python from '../public/assets/python.png'
 
 const Skills = () => {
   return (
@@ -42,11 +44,37 @@ const Skills = () => {
             <div className='p-6 shadow-xl rounded-xl mx-5 hover:scale-105 ease-in duration-200'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
+                    <Image src={python} width='64px' height='64px' alt='/'  />
+                </div>
+                <div>
+                    <div className='flex flex-col items-center justify-center'>
+                        <h3>Python</h3>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div className='p-6 shadow-xl rounded-xl mx-5 hover:scale-105 ease-in duration-200'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                <div className='m-auto'>
                     <Image src={javascript} width='64px' height='64px' alt='/'  />
                 </div>
                 <div>
                     <div className='flex flex-col items-center justify-center'>
                         <h3>JavaScript</h3>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div className='p-6 shadow-xl rounded-xl mx-5 hover:scale-105 ease-in duration-200'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                <div className='m-auto'>
+                    <Image src={typescript} width='64px' height='64px' alt='/'  />
+                </div>
+                <div>
+                    <div className='flex flex-col items-center justify-center'>
+                        <h3>TypeScript</h3>
                     </div>
                 </div>
             </div>

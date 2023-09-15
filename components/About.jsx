@@ -13,12 +13,19 @@ const About = () => {
                 <p className='py-2 text-gray-600'>
                 Hello, I&#39;m Pirashan Ravikumaran, a tech enthusiast with a background in 
                 Chemical Engineering. I embarked on a journey to switch industries and pursue my passion 
-                for tech, having been exposed to the possibilities of software through my various internships.
-                 Over the past year, I&#39;ve been diligently self-studying computer science, 
-                with a focus on full stack development.
+                for tech, having been exposed to the possibilities of software through my various internships. 
+                Coming from a background in industries such as manufacturing, I have seen the legacy processes
+                still in place, and have in turn seen the opportunity for growth through the use of technology. 
+                Over the past year, I&#39;ve been diligently self-studying computer science concepts, 
+                with a focus on full stack development. Other interests of mine include product management and 
+                data science!
                 </p>
                 <p className='py-2 text-gray-600'>
-                    My current interest is in full stack web development!
+                The various frameworks and languages I&#39;ve worked with are best showcased through 
+                the projects listed in my portfolio below. 
+                I&#39;ve also pursued formal education in computer science, having completed courses 
+                in Data Structures and Algorithms as well as Computational Thinking, while currently 
+                progressing through a foundational C# course provided by Microsoft.
                 </p>
             </div>
             <div className='w-full h-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4'>
