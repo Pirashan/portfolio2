@@ -11,17 +11,14 @@ const About = () => {
                     About
                 </p>
                 <p className='py-2 text-gray-600'>
-                    I started my coding journey in my first year of University, when
-                    we were taught MatLab in one of our courses. As a chemical 
-                    engineer, I never would have thought I would need much
-                    coding knowledge. However, throughout my school and work experiences,
-                    I found myself recreating legacy data processes through the use of code.
+                Hello, I'm Pirashan Ravikumaran, a tech enthusiast with a background in 
+                Chemical Engineering. I embarked on a journey to switch industries and pursue my passion 
+                for tech, having been exposed to the possibilities of software through my various co-op 
+                terms. Over the past year, I've been diligently self-studying computer science, 
+                with a focus on full stack development.
                 </p>
                 <p className='py-2 text-gray-600'>
                     My current interest is in full stack web development!
-                </p>
-                <p className='py-2 text-gray-600'>
-                    One of my hobbies includes music production, so make sure to check it out!
                 </p>
             </div>
             <div className='w-full h-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4'>
