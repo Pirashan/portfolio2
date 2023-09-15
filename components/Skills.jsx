@@ -7,6 +7,8 @@ import typescript from '../public/assets/typescript.png'
 import react from '../public/assets/react.png'
 import tailwind from '../public/assets/tailwind.png'
 import python from '../public/assets/python.png'
+import sanity from '../public/assets/sanity.png'
+import stripe from '../public/assets/stripe.svg'
 
 const Skills = () => {
   return (
@@ -101,6 +103,32 @@ const Skills = () => {
                 <div>
                     <div className='flex flex-col items-center justify-center'>
                         <h3>Tailwind</h3>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div className='p-6 shadow-xl rounded-xl mx-5 hover:scale-105 ease-in duration-200'>
+            <div className='grid grid-cols-2 gap-6 justify-center items-center'>
+                <div className='m-auto'>
+                    <Image src={stripe} width='64px' height='64px' alt='/'  />
+                </div>
+                <div>
+                    <div className='flex flex-col items-center justify-center'>
+                        <h3>Stripe</h3>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div className='p-6 shadow-xl rounded-xl mx-5 hover:scale-105 ease-in duration-200'>
+            <div className='grid grid-cols-2 gap-6 justify-center items-center'>
+                <div className='m-auto'>
+                    <Image src={sanity} width='64px' height='64px' alt='/'  />
+                </div>
+                <div>
+                    <div className='flex flex-col items-center justify-center'>
+                        <h3>Sanity</h3>
                     </div>
                 </div>
             </div>
