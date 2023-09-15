@@ -11,7 +11,7 @@ const About = () => {
                     About
                 </p>
                 <p className='py-2 text-gray-600'>
-                Hello, I'm Pirashan Ravikumaran, a tech enthusiast with a background in 
+                Hello, I&#39;m Pirashan Ravikumaran, a tech enthusiast with a background in 
                 Chemical Engineering. I embarked on a journey to switch industries and pursue my passion 
                 for tech, having been exposed to the possibilities of software through my various co-op 
                 terms. Over the past year, I've been diligently self-studying computer science, 
