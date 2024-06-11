@@ -48,3 +48,4 @@ $ git push origin main
 - Add skills/languages and potentially group by type eg. front-end, back-end, API
 - vertical timeline of work experience
 - education timeline?
+- mobile screen click on background of nav bar to exit nav bar
