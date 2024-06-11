@@ -43,3 +43,8 @@ $ git add .
 $ git commit -m "first commit"
 
 $ git push origin main
+
+## ToDo
+- Add skills/languages and potentially group by type eg. front-end, back-end, API
+- vertical timeline of work experience
+- education timeline?
