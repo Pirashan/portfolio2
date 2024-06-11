@@ -1,10 +1,30 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FaBriefcase, FaRegStar } from "react-icons/fa";
 import { IoMdSchool } from "react-icons/io";
 
 function WorkExperience() {
+    const [animate, setAnimate] = useState(true);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.matchMedia("(max-width: 768px)").matches) {
+        setAnimate(false);
+      } else {
+        setAnimate(true);
+      }
+    };
+
+    handleResize(); // Check the screen size initially
+    window.addEventListener('resize', handleResize); // Add event listener for screen resize
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <div id='workexperience' className='w-full min-h-screen justify-center'>
         <div className='max-w-[1240px] mx-auto px-2 py-16 content-center'>
@@ -14,7 +34,9 @@ function WorkExperience() {
         </div>
 
         <div className='w-full min-h-screen p-2 flex items-center'>
-        <VerticalTimeline>
+        <VerticalTimeline
+            animate = {animate}
+        >
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'rgb(204, 204, 245)'}}
