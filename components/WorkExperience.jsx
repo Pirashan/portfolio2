@@ -45,11 +45,11 @@ function WorkExperience() {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FaBriefcase />}
         >
-            <h2 className="vertical-timeline-element-title">Business Analyst</h2>
+            <h2 className="vertical-timeline-element-title">Data/ML Software Consultant</h2>
             <h4 className="vertical-timeline-element-subtitle">BTCG</h4>
             <p>
-                - Executed lead and analyst roles for an SAP EAM implementation project to
-                provide resource support for utility industry clients
+                - Directed machine learning initiatives with TensorFlow-based neural networks, achieving a 72% improvement in damaged
+                asset repair time prediction.
             </p>
             <p>
                 - Pitched a TensorFlow-based ANN to estimate time to repair damaged assets
