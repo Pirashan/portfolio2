@@ -17,8 +17,8 @@ const Projects = () => {
             <Image className='rounded-xl group-hover:opacity-10' src={crcImg} alt='/' />
             <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                 <h3 className='text-2xl text-white tracking-wider text-center'>NPO CRC Green</h3>
-                <p className='pb-4 pt-2 text-white text-center'>Next.js, TypeScript, Tailwind CSS</p>
-                <a href="https://crcgreen.com" rel="noopener">
+                <p className='pb-4 pt-2 text-white text-center'>Next.js, TypeScript, Ghost, Fumio</p>
+                <a href="https://crc.place/" rel="noopener">
                     <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer hover:bg-gray-600 hover:text-white'>More Info</p>
                 </a>
             </div>
