@@ -87,6 +87,16 @@ function WorkExperience() {
         >
             <h2 className="vertical-timeline-element-title">Customer Success Engineering Intern</h2>
             <h4 className="vertical-timeline-element-subtitle">Shoplogix Inc.</h4>
+            <p>
+                - Identified inefficient processes through API queries and organized customer machine data reports for determining OEE
+                patterns, trend analyses, and ROI improvements.
+            </p>
+            <p>
+                - Developed Python scripts to restore lost XML data with 100% accuracy, resolving discrepancies and ensuring data integrity.
+            </p>
+            <p>
+                - Leveraged AWS servers, cloud services, and hardware/software connections to support customers with modifications.
+            </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -96,6 +106,13 @@ function WorkExperience() {
         >
             <h2 className="vertical-timeline-element-title">Manufacturing Engineering Specialist Intern</h2>
             <h4 className="vertical-timeline-element-subtitle">Toyota Motor Manufacturing Canada</h4>
+            <p>
+                - Built a Production Scheduler using Python and the Pandas/NumPy/SciPy libraries to optimize production scheduling by 8%.
+            </p>
+            <p>
+                - Managed cross-functional team programming for external contractors and internal engineers to ensure smooth installation of
+                $6M project impacting 250 employees.
+            </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
             className="vertical-timeline-element--education"
