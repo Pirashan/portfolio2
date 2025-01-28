@@ -85,7 +85,7 @@ function WorkExperience() {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FaBriefcase />}
         >
-            <h2 className="vertical-timeline-element-title">Customer Success Engineer</h2>
+            <h2 className="vertical-timeline-element-title">Customer Success Engineering Intern</h2>
             <h4 className="vertical-timeline-element-subtitle">Shoplogix Inc.</h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -94,7 +94,7 @@ function WorkExperience() {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FaBriefcase />}
         >
-            <h2 className="vertical-timeline-element-title">Project Manager</h2>
+            <h2 className="vertical-timeline-element-title">Manufacturing Engineering Specialist Intern</h2>
             <h4 className="vertical-timeline-element-subtitle">Toyota Motor Manufacturing Canada</h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -106,6 +106,9 @@ function WorkExperience() {
             <h2 className="vertical-timeline-element-title">Georgia Institute of Technology</h2>
             <h3 className="vertical-timeline-element-title">MS in Computer Science</h3>
             <h4 className="vertical-timeline-element-subtitle">Atlanta, GA</h4>
+            <p>
+            Cum. GPA: 3.90 / 4.0
+            </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
             className="vertical-timeline-element--education"
@@ -117,7 +120,7 @@ function WorkExperience() {
             <h3 className="vertical-timeline-element-title">BASc in Chemical Engineering</h3>
             <h4 className="vertical-timeline-element-subtitle">Waterloo, ON</h4>
             <p>
-            Cum. GPA: 3.70 / 4.0
+            Cum. GPA: 3.90 / 4.0
             </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
