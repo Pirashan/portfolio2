@@ -52,12 +52,11 @@ function WorkExperience() {
                 asset repair time prediction.
             </p>
             <p>
-                - Pitched a TensorFlow-based ANN to estimate time to repair damaged assets
+                - Aggregated unstructured data from 20+ sources to build Power BI dashboard; eliminated 100% of visibility issues.
             </p>
             <p>
-                - Led analysis and migration on asset data, including data cleaning,
-                transformation, and validation while managing analysts to run mock loads and
-                data verification/validation cycles
+                - Led analysis and migration of data, including data cleaning, transformation, and validation while managing analysts to run
+                mock loads and data verification/validation cycles.
             </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -66,20 +65,19 @@ function WorkExperience() {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FaBriefcase />}
         >
-            <h2 className="vertical-timeline-element-title">Salesforce Business Analyst</h2>
-            <h4 className="vertical-timeline-element-subtitle">Adi Group</h4>
-            {/* <p>
-                - Deployed Service Cloud from ideation to implementation, including roadmap
-                development, UAT and training of end users
+            <h2 className="vertical-timeline-element-title">Operations Program Manager</h2>
+            <h4 className="vertical-timeline-element-subtitle">ADI Development Group</h4>
+            <p>
+                - Led end-to-end deployment of Service Cloud (Salesforce), from ideation to implementation, including Scrum adoption,
+                    roadmap development, UAT, and end-user training.
             </p>
             <p>
-                - Designed Visualforce pages using Apex and JS to better handle case creation,
-                decreasing cycle time by 65%
+                - Designed and developed Visualforce pages with Apex and JavaScript to handle case creation, decreasing cycle time by 65%.
             </p>
             <p>
                 - Created dashboards for KPI tracking using APIs in Power BI from ProCore
                 data, leading to reduction in average ticket age by 40%
-            </p> */}
+            </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
